@@ -1,7 +1,4 @@
-import Backdrop from "./components/backdrop";
 import Todo from "./components/todo"
-import Modal from "./components/modal";
-import MyBackdrop from "./components/backdrop";
 
 export default function App() {
   return (
@@ -10,8 +7,6 @@ export default function App() {
       <Todo text='Learn React'/>
       <Todo text='Master React'/>
       <Todo text='Explore the full React course'/>
-      <Modal/>
-      <MyBackdrop/>
     </div>
   );
 }
